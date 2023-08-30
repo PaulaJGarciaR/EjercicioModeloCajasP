@@ -3,28 +3,28 @@ body,html{
   margin:0;
 }
 header{
-  background-color: pink;
+  background-color: rgb(181, 181, 181);
   height: 60px;
 }
 section{
-  background-color: rgb(197, 163, 245);
-  overflow: hidden;
+  background-color: rgb(255, 153, 170);
+  display: flex;
 }
 nav{
   width:25%;
-  background-color: rgb(255, 226, 160);
-  float:left;
+  background-color:rgb(255, 111, 135);
+ 
   height: 50px;
 }
 article{
   width: 75%;
-  float: left;
+ 
   height: 250px;
-  background-color: rgb(149, 210, 243);
+  background-color: pink;
 
 }
 footer{
-  background-color: rgb(169, 249, 221);
+  background-color: rgb(155, 155, 155);
   height: 80px;
 }
 #container{
