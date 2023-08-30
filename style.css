@@ -3,32 +3,34 @@ body,html{
   margin:0;
 }
 header{
-  background-color: rgb(181, 181, 181);
+  background-color: rgb(141, 139, 139);
   height: 60px;
+  grid-area: header;
 }
-section{
-  background-color: rgb(255, 153, 170);
-  display: flex;
-}
+
 nav{
-  width:25%;
-  background-color:rgb(255, 111, 135);
- 
-  height: 50px;
+  background-color:rgb(147, 185, 255);
+  grid-area: menu;
 }
 article{
-  width: 75%;
- 
   height: 250px;
-  background-color: pink;
+  background-color: cornflowerblue;;
+  grid-area: content;
 
 }
 footer{
-  background-color: rgb(155, 155, 155);
+  background-color: rgb(62, 105, 197);
   height: 80px;
+  grid-area: footer;
 }
 #container{
   margin: 0 auto;
   width: 1200px;
   background-color: cornflowerblue;
+  display: grid;
+  grid-template-areas: 
+  'header header header header'
+  'menu content content content'
+  'footer footer footer footer'
+  ;
 }
