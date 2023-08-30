@@ -1,0 +1,34 @@
+body,html{
+  padding: 0;
+  margin:0;
+}
+header{
+  background-color: pink;
+  height: 60px;
+}
+section{
+  background-color: rgb(197, 163, 245);
+  overflow: hidden;
+}
+nav{
+  width:25%;
+  background-color: rgb(255, 226, 160);
+  float:left;
+  height: 50px;
+}
+article{
+  width: 75%;
+  float: left;
+  height: 250px;
+  background-color: rgb(149, 210, 243);
+
+}
+footer{
+  background-color: rgb(169, 249, 221);
+  height: 80px;
+}
+#container{
+  margin: 0 auto;
+  width: 1200px;
+  background-color: cornflowerblue;
+}
